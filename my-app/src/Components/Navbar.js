@@ -18,7 +18,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import { TextField } from '@mui/material';
 
 
-const pages = ['Products', 'Pricing', 'Blog'];
+const pages = ['Offers', 'Pricing', 'Blog'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Navbar() {

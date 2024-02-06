@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Login from './login';
+import Offers from './Offers';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -13,6 +14,7 @@ root.render(
     <Routes>
         <Route exact path="/" element={<App/>} />
         <Route exact path="/login" element={<Login/>} />
+        <Route exact path="/classes" element={<Offers/>} />
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
